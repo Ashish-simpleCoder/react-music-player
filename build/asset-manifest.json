@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/react-music-players/static/js/main.a6978bd7.chunk.js",
+    "main.js.map": "/react-music-players/static/js/main.a6978bd7.chunk.js.map",
+    "runtime-main.js": "/react-music-players/static/js/runtime-main.211da255.js",
+    "runtime-main.js.map": "/react-music-players/static/js/runtime-main.211da255.js.map",
+    "index.html": "/react-music-players/index.html"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.211da255.js",
+    "static/js/main.a6978bd7.chunk.js"
+  ]
+}
