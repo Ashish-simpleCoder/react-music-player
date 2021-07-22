@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins",sans-serif;
+}
+
+body {
+  background: #06130d;
+}
+
+header {
+  margin-bottom: 3rem;
+}
+
+header h1 {
+  text-align: center;
+  font-size: clamp(2.5rem, 3rem, 3vw);
+}
+
+main {
+  border-radius: 0.5rem;
+  width: 50%;
+  max-width: 60rem;
+  margin: 5rem auto 5rem auto;
+  position: relative;
+  background: #1d0250;
+}
+
+main .music_list_displayer {
+  width: 100%;
+  max-height: 50rem;
+  overflow: auto;
+}
+
+main .music_list_displayer :is(.each_music_container) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 0.5rem;
+  margin: 1rem 0 1rem 1rem;
+  cursor: pointer;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  border-bottom: 1px solid #534e4e;
+}
+
+main .music_list_displayer :is(.each_music_container):hover {
+  background: #131615;
+}
+
+main .music_list_displayer :is(.each_music_container) h2, main .music_list_displayer :is(.each_music_container) h3 {
+  color: #dbf8f6 !important;
+  font-weight: 400;
+}
+
+main .music_list_displayer :is(.each_music_container) h2 {
+  color: #281d58;
+}
+
+main .music_list_displayer :is(.each_music_container) h3 {
+  font-weight: 300;
+}
+
+:is(.img) {
+  height: clamp(3.5rem, 4rem, 3vw);
+  width: clamp(4rem, 4.5rem, 3vw);
+  margin-right: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  :is(main) {
+    width: 90%;
+  }
+}
+
+.mini_player {
+  position: absolute;
+  bottom: -5rem;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.3s ease;
+  transition: height 0.3s ease;
+  background: #012957;
+}
+
+.mini_player h2 {
+  color: #f0f0f0;
+  cursor: pointer;
+}
+
+.mini_player .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 80%;
+  margin: 0 auto 0 1rem;
+}
+
+.mini_player .details .song_name {
+  font-weight: 400;
+  font-size: clamp(1.7rem, 1.9rem, 1.9vw);
+}
+
+.mini_player .details .artist_name {
+  display: none;
+  color: gainsboro;
+  font-weight: 300;
+}
+
+.mini_player .details .control {
+  position: absolute;
+  top: 50%;
+  right: 15%;
+  color: #019940;
+  width: 2rem;
+  height: 2rem;
+  display: none;
+}
+
+.mini_player .details .control svg {
+  width: 100%;
+  height: 100%;
+}
+
+.mini_player .details .volume_slider {
+  position: absolute;
+  top: 41%;
+  right: 0%;
+  cursor: pointer;
+  width: 0;
+  height: 5px;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.mini_player .details img {
+  cursor: pointer;
+  height: clamp(3.8rem, 4.2rem, 4.2vw);
+  width: clamp(4.4rem, 4.9rem, 4.9vw);
+}
+
+.mini_player span {
+  cursor: pointer;
+}
+
+.mini_player span.back_btn {
+  display: none;
+  position: relative;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.mini_player span.back_btn::before {
+  position: absolute;
+  content: '';
+  width: 3rem;
+  height: 3px;
+  background: #f0f0f0;
+  left: 3%;
+  top: 50%;
+}
+
+.mini_player span.back_btn::after {
+  position: absolute;
+  content: '';
+  width: 1rem;
+  height: 1rem;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  -webkit-transform: rotate(-145deg);
+          transform: rotate(-145deg);
+  top: -0.5rem;
+  left: 3%;
+}
+
+.mini_player .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 4rem;
+}
+
+.mini_player .btns span.prev_btn,
+.mini_player .btns span.next_btn {
+  display: none;
+  font-size: 2rem;
+  color: #dcdcc8;
+}
+
+.mini_player .btns span.pause_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.mini_player .btns span.pause_btn svg {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.mini_player .bar_container {
+  position: absolute;
+  width: 100%;
+  background: none;
+  height: 2px;
+  bottom: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  pointer-events: none;
+}
+
+.mini_player .bar_container .virtual_bar {
+  width: 100%;
+  height: 2px;
+  background: green;
+  position: absolute;
+}
+
+.mini_player .bar_container .progress_bar {
+  height: 2px;
+  background: red;
+  width: 0;
+  position: relative;
+  -webkit-transition: width 0.1s ease;
+  transition: width 0.1s ease;
+}
+
+.mini_player .bar_container .progress_bar:before {
+  content: '';
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  background: gainsboro;
+  border-radius: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 100%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: none;
+}
+
+.mini_player .timings {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mini_player .timings p {
+  font-size: clamp(1.3rem, 1.5rem, 1.5vw);
+  color: gainsboro;
+}
+
+.mini_player_active {
+  height: 5rem;
+}
+
+.expand_mini_player {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  bottom: 0;
+  background: #1d0250;
+}
+
+.expand_mini_player .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0;
+      -ms-flex: 0;
+          flex: 0;
+  padding-bottom: 4rem;
+  margin: 0 auto;
+}
+
+.expand_mini_player .details img {
+  width: clamp(17rem, 20rem, 20vw);
+  height: clamp(17rem, 21rem, 21vw);
+  margin-bottom: 2rem;
+  cursor: default;
+}
+
+.expand_mini_player .details .song_name, .expand_mini_player .details .artist_name {
+  cursor: default;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.expand_mini_player .details .control {
+  display: block;
+}
+
+.expand_mini_player .details .show_volume_slider {
+  width: 100px;
+  opacity: 1;
+}
+
+.expand_mini_player .bar_container {
+  position: relative;
+  width: 80%;
+  margin: 0 auto 0.5rem auto;
+  height: 4px;
+  pointer-events: all;
+}
+
+.expand_mini_player .bar_container .progress_bar, .expand_mini_player .bar_container .virtual_bar {
+  pointer-events: none;
+  display: block;
+  height: 4px;
+}
+
+.expand_mini_player .bar_container .progress_bar::before {
+  pointer-events: none;
+  display: block;
+}
+
+.expand_mini_player .bar_container .bar_slider {
+  display: block;
+}
+
+.expand_mini_player .timings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.expand_mini_player .btns {
+  width: 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.expand_mini_player .btns span.prev_btn,
+.expand_mini_player .btns span.next_btn {
+  display: block;
+}
+
+.expand_mini_player .btns span.pause_btn {
+  width: 4rem;
+}
+
+.expand_mini_player span.back_btn {
+  display: block;
+}
+
+.loader {
+  position: absolute;
+  background: rgba(13, 1, 39, 0.95);
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.loader .c {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  position: absolute;
+  border: 5px solid transparent;
+  -webkit-animation: animate_loaders 1s ease infinite;
+          animation: animate_loaders 1s ease infinite;
+}
+
+.loader .c1 {
+  border-top: 5px solid #6b019c;
+}
+
+.loader .c2 {
+  border-bottom: 5px solid #019940;
+}
+
+@-webkit-keyframes animate_loaders {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes animate_loaders {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=style.css.map */
