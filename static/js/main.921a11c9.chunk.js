@@ -1,2 +1,0 @@
-(this.webpackJsonp0_base_project=this.webpackJsonp0_base_project||[]).push([[0],{9:function(e,t,s){"use strict";s.r(t);s(1);var c=s(3),r=s.n(c),i=[{id:1,src:s.p+"static/media/1_faith.6ae11819.png"}],n=s(0),a=function(){return Object(n.jsxs)("div",{children:[Object(n.jsx)("h1",{children:"this is react"}),Object(n.jsx)("img",{src:i[0].src,alt:""})]})};r.a.render(Object(n.jsx)(a,{}),document.getElementById("root"))}},[[9,1,2]]]);
-//# sourceMappingURL=main.921a11c9.chunk.js.map
