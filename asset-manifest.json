@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.js": "/react-music-player/static/js/main.a6978bd7.chunk.js",
-    "main.js.map": "/react-music-player/static/js/main.a6978bd7.chunk.js.map",
+    "main.js": "/react-music-player/static/js/main.921a11c9.chunk.js",
+    "main.js.map": "/react-music-player/static/js/main.921a11c9.chunk.js.map",
     "runtime-main.js": "/react-music-player/static/js/runtime-main.1b09f1e6.js",
     "runtime-main.js.map": "/react-music-player/static/js/runtime-main.1b09f1e6.js.map",
-    "index.html": "/react-music-player/index.html"
+    "static/js/2.5a7cc59d.chunk.js": "/react-music-player/static/js/2.5a7cc59d.chunk.js",
+    "static/js/2.5a7cc59d.chunk.js.map": "/react-music-player/static/js/2.5a7cc59d.chunk.js.map",
+    "index.html": "/react-music-player/index.html",
+    "static/js/2.5a7cc59d.chunk.js.LICENSE.txt": "/react-music-player/static/js/2.5a7cc59d.chunk.js.LICENSE.txt",
+    "static/media/1_faith.6ae11819.png": "/react-music-player/static/media/1_faith.6ae11819.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1b09f1e6.js",
-    "static/js/main.a6978bd7.chunk.js"
+    "static/js/2.5a7cc59d.chunk.js",
+    "static/js/main.921a11c9.chunk.js"
   ]
 }
