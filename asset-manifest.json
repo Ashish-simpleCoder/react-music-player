@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-music-player/static/css/main.044436eb.chunk.css",
+    "main.css": "/react-music-player/static/css/main.b5251651.chunk.css",
     "main.js": "/react-music-player/static/js/main.28591a3b.chunk.js",
     "main.js.map": "/react-music-player/static/js/main.28591a3b.chunk.js.map",
     "runtime-main.js": "/react-music-player/static/js/runtime-main.830538e9.js",
@@ -12,7 +12,7 @@
     "static/js/4.587b6133.chunk.js": "/react-music-player/static/js/4.587b6133.chunk.js",
     "static/js/4.587b6133.chunk.js.map": "/react-music-player/static/js/4.587b6133.chunk.js.map",
     "index.html": "/react-music-player/index.html",
-    "static/css/main.044436eb.chunk.css.map": "/react-music-player/static/css/main.044436eb.chunk.css.map",
+    "static/css/main.b5251651.chunk.css.map": "/react-music-player/static/css/main.b5251651.chunk.css.map",
     "static/js/2.e6b22f9f.chunk.js.LICENSE.txt": "/react-music-player/static/js/2.e6b22f9f.chunk.js.LICENSE.txt",
     "static/media/10_Uchiha Rap(RED)( RUSTAGE ft. Khantrast).14b7a8b3.mp3": "/react-music-player/static/media/10_Uchiha Rap(RED)( RUSTAGE ft. Khantrast).14b7a8b3.mp3",
     "static/media/10_sasuke_rap.12da1235.png": "/react-music-player/static/media/10_sasuke_rap.12da1235.png",
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.830538e9.js",
     "static/js/2.e6b22f9f.chunk.js",
-    "static/css/main.044436eb.chunk.css",
+    "static/css/main.b5251651.chunk.css",
     "static/js/main.28591a3b.chunk.js"
   ]
 }
