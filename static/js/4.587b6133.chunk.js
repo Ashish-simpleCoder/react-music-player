@@ -1,2 +1,2 @@
 (this.webpackJsonp0_base_project=this.webpackJsonp0_base_project||[]).push([[4],{14:function(s,c,e){"use strict";e.r(c);var n=e(1),a=e.n(n),t=e(4),i=e(0),l=a.a.lazy((function(){return e.e(3).then(e.bind(null,13))}));c.default=function(s){var c=s.playThisSong;return Object(i.jsx)("section",{className:"music_list_displayer",children:Object(i.jsx)(a.a.Suspense,{fallback:Object(i.jsxs)("div",{class:"loader",children:[Object(i.jsx)("div",{class:"c c1"}),Object(i.jsx)("div",{class:"c c2"})]}),children:t.a.map((function(s){return Object(i.jsx)(l,{music:s,playThisSong:c},s.id)}))})})}}}]);
-//# sourceMappingURL=4.997ddd85.chunk.js.map
+//# sourceMappingURL=4.587b6133.chunk.js.map

@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-music-player/static/css/main.4416711b.chunk.css",
-    "main.js": "/react-music-player/static/js/main.c3738e65.chunk.js",
-    "main.js.map": "/react-music-player/static/js/main.c3738e65.chunk.js.map",
-    "runtime-main.js": "/react-music-player/static/js/runtime-main.aa210867.js",
-    "runtime-main.js.map": "/react-music-player/static/js/runtime-main.aa210867.js.map",
-    "static/js/2.5f04a31a.chunk.js": "/react-music-player/static/js/2.5f04a31a.chunk.js",
-    "static/js/2.5f04a31a.chunk.js.map": "/react-music-player/static/js/2.5f04a31a.chunk.js.map",
-    "static/js/3.dcb99b0d.chunk.js": "/react-music-player/static/js/3.dcb99b0d.chunk.js",
-    "static/js/3.dcb99b0d.chunk.js.map": "/react-music-player/static/js/3.dcb99b0d.chunk.js.map",
-    "static/js/4.997ddd85.chunk.js": "/react-music-player/static/js/4.997ddd85.chunk.js",
-    "static/js/4.997ddd85.chunk.js.map": "/react-music-player/static/js/4.997ddd85.chunk.js.map",
+    "main.css": "/react-music-player/static/css/main.044436eb.chunk.css",
+    "main.js": "/react-music-player/static/js/main.28591a3b.chunk.js",
+    "main.js.map": "/react-music-player/static/js/main.28591a3b.chunk.js.map",
+    "runtime-main.js": "/react-music-player/static/js/runtime-main.830538e9.js",
+    "runtime-main.js.map": "/react-music-player/static/js/runtime-main.830538e9.js.map",
+    "static/js/2.e6b22f9f.chunk.js": "/react-music-player/static/js/2.e6b22f9f.chunk.js",
+    "static/js/2.e6b22f9f.chunk.js.map": "/react-music-player/static/js/2.e6b22f9f.chunk.js.map",
+    "static/js/3.b4af9b92.chunk.js": "/react-music-player/static/js/3.b4af9b92.chunk.js",
+    "static/js/3.b4af9b92.chunk.js.map": "/react-music-player/static/js/3.b4af9b92.chunk.js.map",
+    "static/js/4.587b6133.chunk.js": "/react-music-player/static/js/4.587b6133.chunk.js",
+    "static/js/4.587b6133.chunk.js.map": "/react-music-player/static/js/4.587b6133.chunk.js.map",
     "index.html": "/react-music-player/index.html",
-    "static/css/main.4416711b.chunk.css.map": "/react-music-player/static/css/main.4416711b.chunk.css.map",
-    "static/js/2.5f04a31a.chunk.js.LICENSE.txt": "/react-music-player/static/js/2.5f04a31a.chunk.js.LICENSE.txt",
+    "static/css/main.044436eb.chunk.css.map": "/react-music-player/static/css/main.044436eb.chunk.css.map",
+    "static/js/2.e6b22f9f.chunk.js.LICENSE.txt": "/react-music-player/static/js/2.e6b22f9f.chunk.js.LICENSE.txt",
     "static/media/10_Uchiha Rap(RED)( RUSTAGE ft. Khantrast).14b7a8b3.mp3": "/react-music-player/static/media/10_Uchiha Rap(RED)( RUSTAGE ft. Khantrast).14b7a8b3.mp3",
     "static/media/10_sasuke_rap.12da1235.png": "/react-music-player/static/media/10_sasuke_rap.12da1235.png",
     "static/media/11_Unknown Brain - Superhero (feat. Chris Linton).f199bc8a.mp3": "/react-music-player/static/media/11_Unknown Brain - Superhero (feat. Chris Linton).f199bc8a.mp3",
@@ -38,9 +38,9 @@
     "static/media/9_redlight.56b7263a.png": "/react-music-player/static/media/9_redlight.56b7263a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.aa210867.js",
-    "static/js/2.5f04a31a.chunk.js",
-    "static/css/main.4416711b.chunk.css",
-    "static/js/main.c3738e65.chunk.js"
+    "static/js/runtime-main.830538e9.js",
+    "static/js/2.e6b22f9f.chunk.js",
+    "static/css/main.044436eb.chunk.css",
+    "static/js/main.28591a3b.chunk.js"
   ]
 }
